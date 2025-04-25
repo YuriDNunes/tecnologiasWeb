@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        form{
+            margin: 20px;
+            display: inline-block;
+            border: 1px solid black;
+            max-width: 340px;
+        }
+
+        #nome{
+            width: 160px;
+            margin: 0px 0px 0px 160px;
+        }
+
+        #grau{
+            margin: 10px 10px 10px 160px;
+        }
+        
+        button{
+            margin: 10px 10px 10px 230px;
+            width: 55px;
+            height: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome completo: </label> <br>
+        <input id="nome" type="text" placeholder="Digite aqui seu nome"> <br>
+        <label for="grau">Grau de satisfação: </label> <br>
+        <input id="grau" type="range"> <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
