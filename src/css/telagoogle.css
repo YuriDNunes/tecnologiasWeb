@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    height: 50vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-shadow: 2px 6px 10px rgba(0, 0, 0, 0.6);
+    letter-spacing: -15px;
+}
+
+sup{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+div.form-container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px ;
+}
+
+.form-container input{
+    width: 300px;
+}
+
+.gift{
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+}
