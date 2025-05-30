@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor por atributo</title>
+    <style>
+        a{
+            color: blue;
+        }
+
+        a[href^="#"]{
+            color: red;
+        }
+        a[href*="#"]{
+            color: gray;
+        }
+        a[href$="#"]{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <a href="#internal">Interno</a>
+    <a href="http://google.com.br">Google br</a>
+    <a href="#InSensitive">InSensitive</a>
+    <a href="http://google.com.br">Google</a>
+</body>
+</html>
